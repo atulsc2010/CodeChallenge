@@ -9,10 +9,10 @@ This API is executed by sending POST request to https://myservice.altocumulus.it
 
 The API is developed based on Serverless application model that uses following components.
 
-2. AWS Lambda : The application logic is written in .Net Core 2.1 that runs as a serverless AWS Lambda function triggered by API Gateway.
-1. AWS APIGateway : Is used to host a REST api service end point.  
-4. AWS Cerificate Manager (ACM): To create and manage SSL certificate for custom domain integration with API Gateway. 
-3. Custom domain/Friendly URL: https://myservice.altocumulus.it was created by mapping a CNAME record to API gateway provided regional domain name.
+1. AWS Lambda : The application logic is written in .Net Core 2.1 that runs as a serverless AWS Lambda function triggered by API Gateway.
+2. AWS APIGateway : Is used to host a REST api service end point.  
+3. AWS Cerificate Manager (ACM): To create and manage SSL certificate for custom domain integration with API Gateway. 
+4. Custom domain/Friendly URL: https://myservice.altocumulus.it was created by mapping a CNAME record to API gateway provided regional domain name.
 
 
 ## Development Steps
@@ -33,14 +33,14 @@ The API is developed based on Serverless application model that uses following c
 
 ### Success Scenarios 
 
-	1. Test for Happy Path : Provided the sample request JSON from specification output matched to sample response JSON
-	2. Test for Empty Reponse: Tested by providing an empty payload or disabling all DRM flags, output was an empty response.  
-	3. Test for modified request message : Request data was modified by either changing the DRM flag or changing the episodeCount values to check the correctness of the query.
+1. Test for Happy Path : Provided the sample request JSON from specification output matched to sample response JSON
+2. Test for Empty Reponse: Tested by providing an empty payload or disabling all DRM flags, output was an empty response.  
+3. Test for modified request message : Request data was modified by either changing the DRM flag or changing the episodeCount values to check the correctness of the query.
 
 ### Failure Scenarios 
 
-	1. Test for invalid JSON handling : Request sent with empty JSON i.e. {} and received a payload not found error as expected.
-	2. Test for invalid JSON handling : Request sent with no JSON body i.e. blank request and received JSON parsing error. 
-	2. Test for invalid JSON handling : Request sent with INVALID JSON body i.e. {"payload":} and received JSON parsing error. 
-	3. Test for missing payload key   : Request sent with incorrect root key such as "pay" and recieved a payload not found error as expected.
+1. Test for invalid JSON handling : Request sent with empty JSON i.e. {} and received a payload not found error as expected.
+2. Test for invalid JSON handling : Request sent with no JSON body i.e. blank request and received JSON parsing error. 
+2. Test for invalid JSON handling : Request sent with INVALID JSON body i.e. {"payload":} and received JSON parsing error. 
+3. Test for missing payload key   : Request sent with incorrect root key such as "pay" and recieved a payload not found error as expected.
 
