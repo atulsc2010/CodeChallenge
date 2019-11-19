@@ -15,7 +15,7 @@ The API is developed based on Serverless application model that uses following c
 4. Custom domain/Friendly URL: https://myservice.altocumulus.it was created by mapping a CNAME record to API gateway provided regional domain name.
 
 
-## Development Steps
+## Development and Deployment Steps
 
 1. Created initial version of the application logic as a standalone .Net Application.
 2. Created AWS Lambda project using AWS .Net SDK using empty function blue print. 
@@ -27,6 +27,28 @@ The API is developed based on Serverless application model that uses following c
 6. Created a new certificate in AWS ACM as this was mandatory requirement for custom domain integration with API Gateway
 7. Added target domain mapping in API Gateway for custom domain. 
 8. Created a new CNAME record on the DNS server for the sub-domain (myservice.altocumulus.it) mapping to the Regional end point created by API Gateway. 
+
+
+## .Net Application project (/AWSLambdaJParse)
+
+### AWS Lambda Function
+
+This project consists of:
+* Function.cs - class file containing a class with a single function handler method
+* aws-lambda-tools-defaults.json - default argument settings for use with Visual Studio and command line deployment tools for AWS
+ 
+### Summary
+    This function was written as part of the codingchallege from Nine.
+    This function takes a Payload JSON and rerturns a filtered message as per the 
+    specification provided by http://codingchallenge.nine.com.au/
+ 
+### Input
+	<param name="input"></param>
+    <param name="context"></param>
+
+### Returns
+    A list of shows from the request payload, with DRM enabled (drm: true) 
+    and have at least one episode (episodeCount > 0).
 
 
 ## Test Cases 
