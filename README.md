@@ -30,11 +30,13 @@ The API was developed based on Serverless application architecture that uses fol
 ## Test Cases 
 
 ### Positive Scenarios 
+
 	1. Test for Happy Path : Provided the sample request JSON from specification output matched to sample response JSON
 	2. Test for Empty Reponse: Tested by providing an empty payload or disabling all DRM flags, output was an empty response.  
 	3. Test for modified request message : Request data was modified by either changing the DRM flag or changing the episodeCount values to check the correctness of the query.
 
 ### Negative Scenarios 
+
 	1. Test for invalid JSON handling : Request sent with empty JSON i.e. {} and received a payload missing error as expected.
 	2. Test for invalid JSON handling : Request sent with no JSON body i.e. blank request and received JSON parsing error.  
 	3. Test for missing payload key   : Request sent with incorrect root key such as "pay" and recieved a payload missing error as expected.
