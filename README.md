@@ -1,13 +1,13 @@
 # Nine Coding Challenge
 Repo for coding challenge from Nine. The API solution is built as per the requirements specified in the coding challege http://codingchallenge.nine.com.au/
 
-This API is executed by sending POST request to https://myservice.altocumulus.it
+> This API is executed by sending POST request to https://myservice.altocumulus.it
 
 ## Design Overview
 
-![design diagram](https://github.com/atulsc2010/NineCodeChallenge/blob/master/Nine%20Code%20Challenge%20Design.jpg) 
+![design diagram](/Nine%20Code%20Challenge%20Design.jpg) 
 
-The API is developed based on Serverless application model that uses following components.
+The API is developed based on Serverless application model using following components.
 
 1. AWS Lambda : The application logic is written in .Net Core 2.1 that runs as a serverless AWS Lambda function triggered by API Gateway.
 2. AWS APIGateway : Is used to host a REST api service end point.  
@@ -51,7 +51,11 @@ This project consists of:
     and have at least one episode (episodeCount > 0).
 
 
-## Test Cases 
+## Unit Testing and Test Cases (/AWSLambdaJParseUnit.Tests)
+
+The unit testing project /AWSLambdaJParseUnit.Tests implements the following test scenarios. Note the the success scenario unit tests are prefixed by "Tn" and Failure scenarios by "TnErr" where "n" is the scenario number.  
+
+> All Tests were executed within Visual Studio by setting up appropriate sampledata in AWSLambdaJParse.SampleData class 
 
 ### Success Scenarios 
 
