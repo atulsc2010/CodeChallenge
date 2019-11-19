@@ -5,6 +5,8 @@ This API is executed by sending POST request to https://myservice.altocumulus.it
 
 ## Design Overview
 
+![design diagram](https://github.com/atulsc2010/NineCodeChallenge/blob/master/Nine%20Code%20Challenge%20Design.jpg) 
+
 The API is developed based on Serverless application model that uses following components.
 
 2. AWS Lambda : The application logic is written in .Net Core 2.1 that runs as a serverless AWS Lambda function triggered by API Gateway.
