@@ -1,13 +1,29 @@
-# AWS Lambda Empty Function Project
+# AWS Lambda Function Project
 
 This starter project consists of:
 * Function.cs - class file containing a class with a single function handler method
 * aws-lambda-tools-defaults.json - default argument settings for use with Visual Studio and command line deployment tools for AWS
+ 
+### Summary
+    This function was written as part of the codingchallege from Nine.
+    This function takes a Payload JSON and rerturns a filtered message as per the 
+    specification provided by http://codingchallenge.nine.com.au/
+ 
+### Input
+	<param name="input"></param>
+    <param name="context"></param>
 
-You may also have a test project depending on the options selected.
+### Returns
+    A list of shows from the request payload, with DRM enabled (drm: true) 
+    and have at least one episode (episodeCount > 0).
 
-The generated function handler is a simple method accepting a string argument that returns the uppercase equivalent of the input string. Replace the body of this method, and parameters, to suit your needs. 
 
+
+
+
+
+
+ 
 ## Here are some steps to follow from Visual Studio:
 
 To deploy your function to AWS Lambda, right click the project in Solution Explorer and select *Publish to AWS Lambda*.
