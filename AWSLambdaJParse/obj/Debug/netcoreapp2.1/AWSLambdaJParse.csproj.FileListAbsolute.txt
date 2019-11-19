@@ -1,0 +1,10 @@
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\bin\Debug\netcoreapp2.1\AWSLambdaJParse.deps.json
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\bin\Debug\netcoreapp2.1\AWSLambdaJParse.runtimeconfig.json
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\bin\Debug\netcoreapp2.1\AWSLambdaJParse.runtimeconfig.dev.json
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\bin\Debug\netcoreapp2.1\AWSLambdaJParse.dll
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\bin\Debug\netcoreapp2.1\AWSLambdaJParse.pdb
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\obj\Debug\netcoreapp2.1\AWSLambdaJParse.csprojAssemblyReference.cache
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\obj\Debug\netcoreapp2.1\AWSLambdaJParse.AssemblyInfoInputs.cache
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\obj\Debug\netcoreapp2.1\AWSLambdaJParse.AssemblyInfo.cs
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\obj\Debug\netcoreapp2.1\AWSLambdaJParse.dll
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\obj\Debug\netcoreapp2.1\AWSLambdaJParse.pdb

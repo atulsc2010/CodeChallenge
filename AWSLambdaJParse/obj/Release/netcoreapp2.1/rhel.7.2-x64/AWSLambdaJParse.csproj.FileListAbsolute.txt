@@ -1,0 +1,10 @@
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\bin\Release\netcoreapp2.1\rhel.7.2-x64\AWSLambdaJParse.deps.json
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\bin\Release\netcoreapp2.1\rhel.7.2-x64\AWSLambdaJParse.runtimeconfig.json
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\bin\Release\netcoreapp2.1\rhel.7.2-x64\AWSLambdaJParse.runtimeconfig.dev.json
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\bin\Release\netcoreapp2.1\rhel.7.2-x64\AWSLambdaJParse.dll
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\bin\Release\netcoreapp2.1\rhel.7.2-x64\AWSLambdaJParse.pdb
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSLambdaJParse.csprojAssemblyReference.cache
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSLambdaJParse.AssemblyInfoInputs.cache
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSLambdaJParse.AssemblyInfo.cs
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSLambdaJParse.dll
+C:\Users\AC\source\repos\AWSLambdaDemoApps\AWSLambdaJParse\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSLambdaJParse.pdb
