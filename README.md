@@ -1,5 +1,5 @@
 # Nine Coding Challenge
-Repo for coding challenge from Nine. The API solution is built as per the requirements specified in the coding challege http://codingchallenge.nine.com.au/
+Repo for coding challenge. The API solution is built as per the requirements specified in the coding challege 
 
 > This API is executed by sending POST request to https://myservice.altocumulus.it
 
@@ -38,9 +38,9 @@ This project consists of:
 * aws-lambda-tools-defaults.json - default argument settings for use with Visual Studio and command line deployment tools for AWS
  
 ### Summary
-    This function was written as part of the codingchallege from Nine.
+    This function was written as part of the codingchallege 
     This function takes a Payload JSON and rerturns a filtered message as per the 
-    specification provided by http://codingchallenge.nine.com.au/
+    specification provided.
  
 ### Input
 	<param name="input"></param>
