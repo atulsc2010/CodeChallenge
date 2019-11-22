@@ -1,4 +1,4 @@
-# Nine Coding Challenge
+# JSON Webservice Coding Challenge
 Repo for coding challenge. The API solution is built as per the requirements specified in the coding challege 
 
 > This API is executed by sending POST request to https://myservice.altocumulus.it
